@@ -7,6 +7,7 @@ header.style.textAlign ='left';
 let dogPics = document.querySelectorAll('.dog-image');
 for(let i = 0; i < dogPics.length; i++){
     dogPics[i].style.borderRadius = '50px'
+    dogPics[i].style.transform ='rotate(-45deg)'
 }
 
 let dogName = document.querySelectorAll('.dog-name')
